@@ -7,3 +7,190 @@ Template: Avada
 Version: 1.0.0
 Text Domain:  Avada
 */
+
+body.fusion-body {
+  border-top: none !important;
+}
+
+.fusion-header-wrapper .fusion-mobile-menu-design-modern.fusion-header-v2 .fusion-header {
+  padding: 0;
+}
+
+#wrapper .fusion-header-wrapper .fusion-row {
+  max-width: none;
+  background-color: #000000;
+}
+
+#wrapper #side-header .fusion-logo,
+#wrapper .fusion-header .fusion-logo {
+  margin: 0;
+}
+
+#wrapper .fusion-header-wrapper .fusion-mobile-menu-design-modern.fusion-header-v2 .fusion-header {
+  padding: 0 !important;
+  height: auto !important;
+}
+
+#wrapper .fusion-logo {
+  padding: 16px 3.89vw 16px 5.55vw;
+  background-color: #dd1111;
+  width: 24.8%;
+  max-width: 350px;
+}
+
+.fusion-main-menu {
+  flex: 1;
+}
+
+.fusion-header-v2 .fusion-header {
+  background-color: black;
+}
+
+.fusion-mobile-menu-design-modern .fusion-header>.fusion-row {
+  display: flex;
+  align-items: center;
+}
+
+.fusion-row .fusion-main-menu ul {
+  display: flex;
+  padding-left: 6.66vw;
+}
+
+#wrapper .fusion-main-menu > ul > li > a {
+  font-family: 'EB Garamond', serif !important;
+}
+
+.fusion-row span.menu-text {
+  height: auto;
+  margin-top: 0;
+  color: #ffffff;
+  font-size: 18px;
+  letter-spacing: 3px;
+}
+
+.fusion-row .fusion-main-menu li,
+#wrapper .fusion-is-sticky .fusion-main-menu > ul > li {
+  float: none;
+  padding-right: 3.4vw;
+}
+
+.fusion-row .fusion-main-menu > ul > li > a {
+  line-height: 1;
+  height: auto;
+}
+
+.fusion-row .fusion-main-menu {
+  float: none;
+}
+
+.fusion-row .header-icon-list {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  padding: 0;
+  margin-right: 80px;
+  margin-right: min(5.6vw, 80px);
+  flex: 0.3;
+  list-style: none;
+}
+
+.fusion-row .header-icon-item {
+  margin-left: 24px;
+}
+
+.header-icon-twitter {
+  width: 28px;
+}
+
+.header-icon-facebook {
+  width: 14px;
+}
+
+.header-icon-blog {
+  width: 26px;
+}
+
+.header-icon-youtube {
+  width: 30px;
+}
+
+/* footer */
+.fusion-footer .fusion-footer-widget-area {
+  background-color: #000000;
+}
+
+.footer-logo {
+  display: block;
+  max-width: 214px;
+  margin: 0 auto;
+}
+
+.fusion-footer .fusion-footer-widget-area ul {
+  margin: 32px auto 0;
+}
+
+.footer-icon-list {
+  display: flex;
+  justify-content: center;
+  max-width: 180px;
+}
+
+.fusion-footer footer a {
+  padding: 0 !important;
+  margin: 0 4px;
+}
+
+#wrapper footer.fusion-footer-widget-area.fusion-widget-area.fusion-footer-widget-area-center {
+  border-top-color: #dd1111 !important;
+  padding: 40px 0 0;
+}
+
+#wrapper .fusion-footer-copyright-area {
+  background-color: #000000;
+  border: none;
+}
+
+.fusion-footer .fusion-footer-widget-area ul li a {
+  display: flex;
+  align-items: center;
+  margin: 0 12px
+}
+
+.footer-icon-item {
+  display: inline-flex;
+  align-items: center;
+}
+
+.footer-icon-item img {
+  max-width: none;
+}
+
+.footer-icon-twitter {
+  width: 28px;
+}
+
+.footer-icon-facebook {
+  width: 14px;
+}
+
+.footer-icon-blog {
+  width: 26px;
+}
+
+.footer-icon-youtube {
+  width: 30px;
+}
+
+#wrapper #menu-widget-2 ul li a {
+  color: #ffffff;
+  font-family: 'EB Garamond', serif;
+  font-size: 20px;
+  letter-spacing: 3px;
+  margin: 0 20px;
+}
+
+.fusion-footer .fusion-copyright-notice {
+  color: #ffffff;
+  margin: 40px 0 8px;
+  letter-spacing: 1px;
+}

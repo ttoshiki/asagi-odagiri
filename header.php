@@ -68,9 +68,6 @@ if ('modern' === Avada()->settings->get('mobile_menu_design')) {
 	<div id="wrapper" class="<?php echo esc_attr($wrapper_class); ?>">
 		<div id="home" style="position:relative;top:-1px;"></div>
 		<?php avada_header_template('Below', is_archive() || Avada_Helper::bbp_is_topic_tag()); ?>
-		<?php if ('Left' === Avada()->settings->get('header_position') || 'Right' === Avada()->settings->get('header_position')) : ?>
-			<?php avada_side_header(); ?>
-		<?php endif; ?>
 
 		<div id="sliders-container">
 			<?php
@@ -169,7 +166,7 @@ if ('modern' === Avada()->settings->get('mobile_menu_design')) {
             $row_css    = 'max-width:100%;';
             $main_class = 'width-100';
         }
-        do_action('avada_before_main_container');
+
         ?>
 		<main id="main" role="main" class="clearfix <?php echo esc_attr($main_class); ?>" style="<?php echo esc_attr($main_css); ?>">
 			<div class="fusion-row" style="<?php echo esc_attr($row_css); ?>">
