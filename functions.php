@@ -41,6 +41,14 @@ remove_action( 'admin_init', '_maybe_update_core' );
 remove_action( 'load-update-core.php', 'wp_update_themes' );
 add_filter( 'pre_site_transient_update_themes', create_function( '$a', "return null;" ) );
 
+function header_scripts() {
+    wp_enqueue_script('header-script', get_stylesheet_directory_uri() . '/assets/js/header.js', array(), '', true);
+}
+add_action('wp_enqueue_scripts', 'header_scripts');
+
+
+
+
 /**
  * Google Fonts
  */
