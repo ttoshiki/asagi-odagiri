@@ -6,8 +6,8 @@ function theme_enqueue_styles() {
     wp_enqueue_style(
         'child-style',
         get_stylesheet_directory_uri() . '/style.css',
-        array('parent-style'),
-        filemtime(get_theme_file_path('style.css'))
+        array('parent-style')
+        // filemtime(get_theme_file_path('style.css'))
     );
 }
 
@@ -57,7 +57,7 @@ function twpp_enqueue_styles()
 {
     wp_enqueue_style(
         'google-webfont-style',
-        'fonts.googleapis.com/css2?family=EB+Garamond&display=swap" rel="stylesheet"'
+        'https://fonts.googleapis.com/css2?family=EB+Garamond&display=swap" rel="stylesheet"'
     );
 }
 

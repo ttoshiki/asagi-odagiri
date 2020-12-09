@@ -70,6 +70,8 @@ body.fusion-body {
 }
 
 #wrapper .fusion-main-menu > ul > li > a {
+  display: flex;
+  align-items: center;
   font-family: 'EB Garamond', serif !important;
 }
 
@@ -113,6 +115,7 @@ body.fusion-body {
 
 .fusion-row .header-icon-item a {
   display: flex;
+  align-items: center;
 }
 
 .header-icon-twitter {
@@ -137,7 +140,7 @@ body.fusion-body {
 
 @media screen and (max-width:980px) {
   #wrapper .fusion-logo {
-    padding: 14px 20px 20px;
+    padding: 10px 20px 14px;
     min-width: 214px;
   }
 
@@ -232,7 +235,7 @@ body.fusion-body {
 
   .header__hammenuWrapper {
       position: fixed;
-      top: 74px;
+      top: 65px;
       left: 0;
       display: none;
       flex-direction: column;
@@ -308,7 +311,7 @@ body.fusion-body {
   .fusion-row img.header__fixedLogo {
     position: absolute;
     width: 174px;
-    top: 21px;
+    top: 16px;
     left: 20px;
   }
 }
@@ -437,7 +440,7 @@ body.fusion-body {
 @media screen and (max-width:980px) {
   #wrapper #menu-widget-2 ul li a {
       font-size: 12px;
-      margin: 0 3.4vw;
+      margin: 0 3vw;
   }
 
   .fusion-footer .fusion-footer-widget-area ul {
