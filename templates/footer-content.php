@@ -24,16 +24,16 @@ $display_footer = get_post_meta( $c_page_id, 'pyre_display_footer', true );
     <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/logo_footer.png" alt="" class="footer-logo">
     <ul class="footer-icon-list">
 			<li class="footer-icon-item">
-				<a href=""><img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/icon_twitter-primary.png" alt="twitter" class="footer-icon-twitter"></a>
+				<a href="https://twitter.com/asagiod"><img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/icon_twitter-primary.png" alt="twitter" class="footer-icon-twitter"></a>
 			</li>
 			<li class="footer-icon-item">
-				<a href=""><img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/icon_fb-primary.png" alt="facebook" class="footer-icon-facebook"></a>
+				<a href="https://www.facebook.com/odagiriasagi"><img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/icon_fb-primary.png" alt="facebook" class="footer-icon-facebook"></a>
 			</li>
 			<li class="footer-icon-item">
-				<a href=""><img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/icon_blog-primary.png" alt="blog" class="footer-icon-blog"></a>
+				<a href="https://ameblo.jp/asagiblog/"><img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/icon_blog-primary.png" alt="blog" class="footer-icon-blog"></a>
 			</li>
 			<li class="footer-icon-item">
-				<a href=""><img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/icon_youtube-primary.png" alt="youtube" class="footer-icon-youtube"></a>
+				<a href="https://www.youtube.com/channel/UCyrgqU5j3E5l33mU3wpzkjg"><img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/icon_youtube-primary.png" alt="youtube" class="footer-icon-youtube"></a>
 			</li>
 		</ul>
 		<div class="fusion-row">
